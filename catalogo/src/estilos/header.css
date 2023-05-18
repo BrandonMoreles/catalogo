@@ -1,0 +1,41 @@
+
+.header{
+    background-color: #122132;
+    margin: 0%;
+    padding: 0%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    display: inline;
+    color: #eee;
+    margin-left: 15px;
+    font-size: 2.7rem;
+}
+.header div>h3{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-right:15px;
+}
+.header div>input{
+    all: unset;
+    transition: all 2s;
+    border-bottom: #20dbd8 solid 2px;
+    text-align: start;
+    padding: 4px;
+}
+.header div>input:focus{
+     background:linear-gradient(0deg, #146d82 0%, #00000000 70% );
+    }
+.header>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#logo{
+    width: 100px;
+    border-radius: 50%;
+}
+
